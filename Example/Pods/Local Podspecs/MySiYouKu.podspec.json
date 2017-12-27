@@ -1,0 +1,22 @@
+{
+  "name": "MySiYouKu",
+  "version": "0.1.0",
+  "summary": "A short description of MySiYouKu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fuqibin/MySiYouKu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fuqibin": "906351101@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fuqibin/MySiYouKu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MySiYouKu/Classes/**/*"
+}

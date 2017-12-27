@@ -1,0 +1,16 @@
+PODS:
+  - MySiYouKu (0.1.0)
+
+DEPENDENCIES:
+  - MySiYouKu (from `../`)
+
+EXTERNAL SOURCES:
+  MySiYouKu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MySiYouKu: 1a38abed4054131ae64affe55a103a884fec7954
+
+PODFILE CHECKSUM: a385f161318b5c8e1c8ce8589f470d67e8782ecc
+
+COCOAPODS: 1.3.1

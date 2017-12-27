@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		8098CBD01FF36F2700E06F7A /* MiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8098CBCF1FF36F2700E06F7A /* MiTableViewCell.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		93F8754C4AB634481F67FA26 /* Pods_MySiYouKu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB94FE30F44666B4655FF7D8 /* Pods_MySiYouKu_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		230C67B42E41B3B3BA172DB9 /* MySiYouKu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MySiYouKu.podspec; path = ../MySiYouKu.podspec; sourceTree = "<group>"; };
-		32E81D1FBF52004EBFE13D37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		230C67B42E41B3B3BA172DB9 /* MySiYouKu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MySiYouKu.podspec; path = ../MySiYouKu.podspec; sourceTree = "<group>"; };
+		32E81D1FBF52004EBFE13D37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3E4693D312E80E312758DEA5 /* Pods_MySiYouKu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySiYouKu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MySiYouKu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySiYouKu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,10 +61,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8098CBCE1FF36F2700E06F7A /* MiTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiTableViewCell.h; sourceTree = "<group>"; };
+		8098CBCF1FF36F2700E06F7A /* MiTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiTableViewCell.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B423877610F113A9F0BB7658 /* Pods-MySiYouKu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySiYouKu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySiYouKu_Tests/Pods-MySiYouKu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C139B60CE1FAA7804184E71D /* Pods-MySiYouKu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySiYouKu_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySiYouKu_Example/Pods-MySiYouKu_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D001A4E2BF6E5B68725B5668 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D001A4E2BF6E5B68725B5668 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E8285D16346832B11A3F3A20 /* Pods-MySiYouKu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySiYouKu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySiYouKu_Tests/Pods-MySiYouKu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EC6E3EFAF55E540167B835C8 /* Pods-MySiYouKu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySiYouKu_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySiYouKu_Example/Pods-MySiYouKu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FB94FE30F44666B4655FF7D8 /* Pods_MySiYouKu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySiYouKu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +135,7 @@
 		6003F593195388D20070C39A /* Example for MySiYouKu */ = {
 			isa = PBXGroup;
 			children = (
+				8098CBCB1FF36DE600E06F7A /* MySiYouKu */,
 				6003F59C195388D20070C39A /* MiAppDelegate.h */,
 				6003F59D195388D20070C39A /* MiAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -183,6 +187,32 @@
 				D001A4E2BF6E5B68725B5668 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8098CBCB1FF36DE600E06F7A /* MySiYouKu */ = {
+			isa = PBXGroup;
+			children = (
+				8098CBCC1FF36DE600E06F7A /* Classes */,
+				8098CBCD1FF36DE600E06F7A /* Assets */,
+			);
+			name = MySiYouKu;
+			path = ../../MySiYouKu;
+			sourceTree = "<group>";
+		};
+		8098CBCC1FF36DE600E06F7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8098CBCE1FF36F2700E06F7A /* MiTableViewCell.h */,
+				8098CBCF1FF36F2700E06F7A /* MiTableViewCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8098CBCD1FF36DE600E06F7A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		E8E08090DA214153CA4B244C /* Pods */ = {
@@ -404,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MiAppDelegate.m in Sources */,
+				8098CBD01FF36F2700E06F7A /* MiTableViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* MiViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
