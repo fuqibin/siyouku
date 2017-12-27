@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MySiYouKu_Example' do
+  pod 'MySiYouKu', :path => '../'
+
+  target 'MySiYouKu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
